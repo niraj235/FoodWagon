@@ -1,8 +1,9 @@
-body{
+body {
     padding: 0%;
     margin: 0%
 }
-.nav1{
+
+.nav1 {
     width: 100%;
     height: 80px;
     /* background-color: rebeccapurple; */
@@ -10,7 +11,8 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
-.logo{
+
+.logo {
     width: 20%;
     height: 80px;
     /* background-color: #dd2b2b; */
@@ -18,18 +20,21 @@ body{
     justify-content: center;
     align-items: center;
 }
-.s1{
+
+.s1 {
     font-size: 1.8em;
     color: rgb(241, 114, 40);
     margin-left: 10px;
-    font-family: "Source Code Pro",serif;
+    font-family: "Source Code Pro", serif;
 }
-.s2{
+
+.s2 {
     font-size: 1.8em;
     color: rgb(255, 179, 14);
-    font-family: "Source Code Pro",serif;
+    font-family: "Source Code Pro", serif;
 }
-.location{
+
+.location {
     width: 35%;
     height: 80px;
     /* background-color: #25b38d; */
@@ -37,20 +42,24 @@ body{
     justify-content: center;
     align-items: center;
 }
-.s3{
+
+.s3 {
     font-weight: 700;
     margin-right: 6px;
 }
-.s4{
+
+.s4 {
     font-family: "Roboto", sans-serif;
     margin-right: 3px;
     margin-left: 6px;
 }
-.s5{
+
+.s5 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
-.search{
+
+.search {
     width: 20%;
     height: 80px;
     /* background-color: #cf2424; */
@@ -58,12 +67,14 @@ body{
     justify-content: center;
     align-items: center;
 }
-.s6{
+
+.s6 {
     margin-left: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 800;
 }
-.login{
+
+.login {
     width: 23%;
     height: 35px;
     background-color: #fff;
@@ -75,17 +86,18 @@ body{
     border-radius: 12px;
     box-shadow: rgba(225, 156, 1) 0px 5px 8px;
 }
-.s7{
+
+.s7 {
     color: rgb(255, 156, 1);
     font-weight: bolder;
 }
 
 
-                          /* Navbar complete */
+/* Navbar complete */
 
 
 
-.herosection{
+.herosection {
     width: 100%;
     height: 620px;
     background-color: rgb(252, 204, 31);
@@ -93,34 +105,128 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
-.starving{
+
+.starving {
     width: 55%;
     height: 550px;
-    background-color: olivedrab;
+    /* background-color: olivedrab; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.s8{
+
+.s8 {
     font-size: 3.2em;
     color: #fff;
     font-weight: 800;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif      ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-right: 260px;
 }
-.s9{
+
+.s9 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-right: 230px;
 }
-.pickup{
+
+.pickup {
     width: 65%;
     height: 200px;
     background-color: #fff;
     border-radius: 10px;
     margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
-.egg{
+
+.rider {
+    width: 100%;
+    height: 60px;
+    /* background-color: rebeccapurple; */
+    border-bottom: solid grey 2px;
+    display: flex;
+    align-items: center;
+}
+
+.b1 {
+    width: 15%;
+    height: 30px;
+    background-color: rgb(246, 215, 197);
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(241, 114, 40);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.b2 {
+    width: 15%;
+    height: 30px;
+    /* background-color: rgb(111, 200, 22); */
+    font-size: 14px;
+    font-weight: 700;
+    color: gray;
+    margin-left: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.findfood {
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.findfood2 {
+    width: 73%;
+    height: 55px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.findfood3 {
+    width: 20%;
+    height: 58px;
+    background-color: rgb(249, 98, 34);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img1 {
+    color: rgb(249, 98, 34);
+    margin-left: 12px;
+}
+
+.s10 {
+    margin-left: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    font-size: 1.2em;
+}
+
+.s11 {
+    font-size: 1.3em;
+    color: white;
+    font-weight: 700;
+}
+
+.egg {
     width: 40%;
     height: 550px;
     background-color: olivedrab;
